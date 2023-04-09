@@ -1,0 +1,161 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+body {
+	background: linear-gradient(224.27deg, #FFFFFF 4.85%, #CED6EA 108.14%);
+}
+.MenuBarMain {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 19px 0px;
+	height: 72px;
+	background: #FFFFFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.BlockRoseltorg {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 30px;
+	width: 246px;
+	height: 32px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.OtherBar {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 16px;
+	width: 167px;
+	height: 24px;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+.HelpBlock {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 4px;
+	width: 111px;
+	height: 24px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.LineHeaderMain {
+	height: 0px;
+	border: 1px solid #E6E6E6;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+.MainContent {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 20px 200px;
+	gap: 79px;
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+}
+.Block2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0px 20px;
+	gap: 105px;
+	width: 648px;
+	height: 825px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.Frame6448{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 35px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.MainTitle{
+	width: 608px;
+	height: 60px;
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.MainSubtitle{
+	width: 608px;
+	height: 183px;
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	color: #000000;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+.Primary{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 24px;
+	gap: 8px;
+	width: 367px;
+	height: 78px;
+	background: #0450F2;
+	border-radius: 15px;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+.ButtonText {
+	width: 229px;
+	height: 24px;
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 23px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.WolfMain {
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+.buttona{
+	text-decoration: none;
+}

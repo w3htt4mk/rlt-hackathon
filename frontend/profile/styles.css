@@ -1,0 +1,437 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+body {
+background: linear-gradient(224.27deg, #FFFFFF 4.85%, #CED6EA 108.14%);
+}
+.MenuBarMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 0px;
+    height: 72px;
+    /* Base/Снежно-белый
+
+    - Цвет иконок в полей ввода/выбора на темном фоне
+    - Текст в полях ввода/выбора на темном фоне
+    */
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.BlockRoseltorg {
+	/* BlockRoseltorg */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 246px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.OtherBar {
+	/* OtherBar */
+
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 0px;
+    gap: 42px;
+    padding-right: 30px;
+
+    width: 720px;
+    height: 48px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.HelpBlock {
+	/* HelpBlock */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 111px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.LineHeaderMain {
+	/* LineHeaderMain */
+height: 0px;
+
+/* Additional/Ды́мчатый блокированный
+
+- Заблокированные кнопки
+- Заблокированные поля ввода/выбора
+- Заблокированные иконки
+- Линии-разделители
+*/
+border: 1px solid #E6E6E6;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.blockMap{
+    
+    width: 126px;
+    height: 48px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0
+}
+
+.buttonMap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top:25px;
+
+    /* Additional/Hover */
+
+    background: #E6F0FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.text_map{
+    width: 46px;
+    height: 24px;
+
+    /* P2/16-24 px Semi Bold */
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    /* Additional/Марианский синий */
+
+    color: #0041CB;
+
+
+    /* Inside auto layout */
+    text-decoration: none;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.blockInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 65px 14px;
+    gap: 17px;
+
+    position: absolute;
+    width: 382px;
+    height: 483px;
+    left: 100px;
+    top: 3.5px;
+}
+
+.text1{
+    width: 368px;
+    height: 24px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 24px;
+    /* identical to box height, or 104% */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text2{
+    height: 24px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 24px;
+    /* identical to box height, or 104% */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.text3{
+height: 24px;
+
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
+/* identical to box height, or 109% */
+
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.text4{
+    height: 24px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.blockpurposes{
+    position: absolute;
+    width: auto;
+    height: 600px;
+    right: 35%;
+    top: 120px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Remove margins and padding from the list */
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the list items */
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Set all odd list items to a different color (zebra-stripes) */
+  ul li:nth-child(odd) {
+    background: #c4d3fe;
+  }
+  
+  /* Darker background-color on hover */
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  /* When clicked on, add a background color and strike out text */
+  ul li.checked {
+    background: #2041ffbf;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+  /* Add a "checked" mark when clicked on */
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+  /* Style the close button */
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+  
+    color: white;
+  }
+  
+  /* Style the header */
+  .header {
+    
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Clear floats after the header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the input */
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+  /* Style the "Add" button */
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #f1f1f2;
+    color: #000000;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #566bd5;
+  }
+
+ .title{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    text-align: center;
+    line-height: 24px;
+ }
+  .purposes{
+    position: absolute;
+    width: auto;
+    height: 441px;
+    right: 10%;
+    top: 120px;
+
+  }
+
+  .blockpurposes img{
+    width: 250px;
+  }
+
+  .purposes{
+    padding: 10px;
+    border:10px solid #566bd5;
+    border-radius: 25px;
+  }
